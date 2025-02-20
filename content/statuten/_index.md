@@ -1,6 +1,7 @@
 ---
 menus: footer
 title: 'Statuten'
+featured_image: '/images/statuten-hero.jpg'
 ---
 ## § 1: Name, Sitz und Tätigkeitsbereich
 Der Verein führt den Namen „Absolventen und Förderer der HTL Grieskirchen"

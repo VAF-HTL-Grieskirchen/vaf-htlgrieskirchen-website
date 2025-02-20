@@ -4,6 +4,7 @@ menus:
     name: Ziele
     weight: 10
 title: 'Unser Ziel'
+featured_image: '/images/ziele-hero.jpg'
 ---
 Unser Verein soll in erster Linie ein Treffpunkt für die Absolventen sein. Diese sollen den Kontakt zueinander sowie zu ihrer ehemaligen Schule und den Lehrern nicht verlieren. Überdies kann der Verein für sie in beruflicher Hinsicht auch Informationsplattform (Gedankenaustausch, Hilfestellungen, Jobbörse, …) werden.
 

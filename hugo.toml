@@ -17,7 +17,8 @@ filename = "sitemap.xml"
 [params]
 author = "Verein der Absolventen und Förderer der HTL-Grieskirchen"
 description = ""
-mainSections = ["post"]
+favicon = "favicon.ico"
+mainSections = ["berichte"]
 site_logo = "images/VAF-logo.png"
 background_color_class = "bg-green"
 recent_posts_number = 3

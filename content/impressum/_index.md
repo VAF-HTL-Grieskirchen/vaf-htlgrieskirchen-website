@@ -1,6 +1,7 @@
 ---
 menus: footer
 title: 'Impressum'
+featured_image: '/images/impressum-hero.jpg'
 ---
 **Verein der Absolventen und Förderer der HTL-Grieskirchen**
 

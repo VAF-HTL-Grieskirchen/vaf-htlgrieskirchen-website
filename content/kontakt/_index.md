@@ -3,6 +3,7 @@ menus:
   main:
     weight: 60
 title: 'Kontakt'
+featured_image: '/images/impressum-hero.jpg'
 ---
 **Verein der Absolventen und Förderer der HTL-Grieskirchen**
 
@@ -17,7 +18,7 @@ Wenn Sie ein Job-Inserat haben, welches die Mitglieder des VAF HTL Grieskirchen 
 
 - Datei muss als `*.pdf` gesendet werden
 - Dateigröße maximal `200 KB`
-- Namenskonvention einzelnes Inserat: `Datum_Unternehmen_Stellenbezeichnung.pdf` (zB `2018-01-10_Fabasoft_Software-Entwickler.pdf`)
+- Namenskonvention einzelnes Inserat: `Datum_Unternehmen_Stellenbezeichnung.pdf` (z. B. `2018-01-10_Fabasoft_Software-Entwickler.pdf`)
 - Wenn Sie mehrere Inserate übermitteln, diese bitte gesammelt in einer mehrseitigen PDF-Datei
 - Namenskonvention mehrere Inserate: `Datum_Unternehmen_Anzahl-Inserate.pdf` (z. B. `2018-01-12_TGW_3-Inserate.pdf`)
 

@@ -1,5 +1,5 @@
 <ul>
     {{ range .Site.Data.vorstand }}
-    <li>{{ .name }}</li>
+    <li><img src="/images/vorstand/{{ .image }}" />{{ .name }}</li>
     {{ end }}
 </ul>
