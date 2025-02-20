@@ -1,5 +1,6 @@
 ---
 title: 'Jahreshauptversammlung 2019'
+date: '2019-12-27'
 featured_image: '/images/20191227_jhv2019-002-1.1200x0.jpg'
 ---
 
