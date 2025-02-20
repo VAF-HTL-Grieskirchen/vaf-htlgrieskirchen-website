@@ -1,4 +1,4 @@
-baseURL = 'https://absolventen-htlgrieskirchen.at/'
+baseURL = 'https://vaf-htl-grieskirchen.github.io/'
 languageCode = 'de-AT'
 title = 'VAF HTL Grieskirchen'
 theme = 'ananke'
