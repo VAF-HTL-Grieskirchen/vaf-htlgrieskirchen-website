@@ -1,0 +1,23 @@
+baseURL = 'https://absolventen-htlgrieskirchen.at/'
+languageCode = 'de-AT'
+title = 'VAF HTL Grieskirchen'
+theme = 'ananke'
+
+defaultContentLanguage = "de"
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[params]
+author = "Verein der Absolventen und Förderer der HTL-Grieskirchen"
+description = ""
+mainSections = ["post"]
+site_logo = "images/VAF-logo.png"
+background_color_class = "bg-green"
+recent_posts_number = 3

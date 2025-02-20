@@ -1,0 +1,50 @@
+- position: Obmann
+  name: Christop Mader
+  activeSince: 2016
+  profession: Angestellter
+  image: christoph_mader.png
+- position: Obmann Stv.
+  name: Gerhard Ginzinger
+  activeSince: 2007
+  profession: Fachinspektor für den katholischen Religionsunterricht
+  image: gerhard_ginzinger.png
+- position: Kassierin
+  name: Lisa Famler
+  activeSince: 2019
+  profession: Angestellte
+  image: no_profile.png
+- position: Kassiererin Stv.
+  name: Christina Nöhammer
+  activeSince: 2019
+  profession: Angestellter
+  image: no_profile.png
+- position: Schriftführer
+  name: Michael Höflinger
+  activeSince: 2013
+  profession: Angestellter
+  image: michael_höflinger.png
+- position: Schriftführer Stv.
+  name: Ursula Nagl
+  activeSince: 2011
+  profession: Angestellter
+  image: ursula_nagl.png
+- position: Organisation & IT
+  name: Christian Schabetsberger
+  activeSince: 2020
+  profession: Selbstständig
+  image: no_profile.png
+- position: Kommunikation
+  name: Andreas Eckmayr
+  activeSince: 2019
+  profession: Student
+  image: andreas_eckmayr.png
+- position: Rechnungsprüfer
+  name: Markus Jäger
+  activeSince: 2007
+  profession: Forscher
+  image: markus_jäger.png
+- position: Rechnungsprüfer
+  name: Manuel Gahleitner
+  activeSince: 2009
+  profession: Angestellter
+  image: no_profile.png
