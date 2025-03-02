@@ -1,5 +1,25 @@
-<ul>
-    {{ range .Site.Data.vorstand }}
-    <li><img src="../images/vorstand/{{ .image }}" />{{ .name }}</li>
+<div class="mw9 center ph3-ns">
+  {{ range $index, $item := .Site.Data.vorstand }}
+    {{ if eq (mod $index 2) 0 }}
+      <div class="cf ph2-ns">
     {{ end }}
-</ul>
+    <div class="fl w-100 w-50-ns pa2">
+      <div class="outline bg-white pv4">
+        <figure>
+          <img src="../images/vorstand/{{ $item.image }}" />
+        </figure>
+        <figcaption>
+          <h3>{{ $item.position }}</h3>
+          <p>
+            {{ $item.name }}<br />
+            Im Vorstand aktiv seit: {{ $item.activeSince }}<br />
+            {{ $item.profession }}
+          </p>
+        </figcaption>
+      </div>
+    </div>
+    {{ if eq (mod (add $index 1) 2) 0 }}
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
