@@ -1,5 +1,5 @@
 ---
-title: 'Jahreshauptversammlung 2017'
+title: 'Jahreshauptversammlung 2016'
 date: '2017-01-05'
 featured_image: ''
 ---
