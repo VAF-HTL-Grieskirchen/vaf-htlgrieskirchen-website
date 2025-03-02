@@ -8,7 +8,17 @@
   activeSince: 2007
   profession: Fachinspektor für den katholischen Religionsunterricht
   image: gerhard_ginzinger.jpg
-- position: Kassierin
+- position: Schriftführer
+  name: Fabian Wilflingseder
+  activeSince: 2025
+  profession: Angestellter & Selbstständig
+  image: fabian_wilflingseder.jpg
+- position: Kassier
+  name: Andreas Leeb
+  activeSince: 2025
+  profession: Angestellter
+  image: andreas_leeb.jpg
+- position: Schriftführerin Stv.
   name: Lisa Famler
   activeSince: 2019
   profession: Angestellte
@@ -17,22 +27,12 @@
   name: Christina Nöhammer
   activeSince: 2019
   profession: Angestellter
-  image: no_profile.png
-- position: Schriftführer
-  name: Michael Höflinger
-  activeSince: 2013
-  profession: Angestellter
-  image: michael_höflinger.jpg
-- position: Schriftführer Stv.
-  name: Ursula Nagl
-  activeSince: 2011
-  profession: Angestellter
-  image: ursula_nagl.jpg
+  image: christina_noehammer.jpg
 - position: Organisation & IT
   name: Christian Schabetsberger
   activeSince: 2020
   profession: Selbstständig
-  image: no_profile.png
+  image: christian_schabetsberger.jpg
 - position: Kommunikation
   name: Andreas Eckmayr
   activeSince: 2019
