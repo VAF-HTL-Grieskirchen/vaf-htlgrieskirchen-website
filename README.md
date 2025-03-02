@@ -4,4 +4,3 @@
 
 - Design
 - Migration Beiträge
-- Migration Partners
