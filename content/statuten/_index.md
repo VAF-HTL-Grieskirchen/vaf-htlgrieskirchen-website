@@ -1,5 +1,7 @@
 ---
-menus: footer
+menus:
+  footer:
+    weight: 10
 title: 'Statuten'
 featured_image: '/images/statuten-hero.jpg'
 ---

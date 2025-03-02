@@ -1,5 +1,7 @@
 ---
-menus: footer
+menus:
+  footer:
+    weight: 20
 title: 'Impressum'
 featured_image: '/images/impressum-hero.jpg'
 ---
