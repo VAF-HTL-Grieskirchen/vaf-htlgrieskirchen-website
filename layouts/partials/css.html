@@ -1,6 +1,8 @@
 {{ with (templates.Defer (dict "key" "global")) }}
   {{ with resources.Get "css/main.css" }}
-    {{ $opts := dict "minify" hugo.IsProduction "inlineImports" true }}
+    {{ $opts := dict
+      "minify" hugo.IsProduction
+    }}
     {{ with . | css.TailwindCSS $opts }}
       {{ if hugo.IsProduction }}
         {{ with . | fingerprint }}
