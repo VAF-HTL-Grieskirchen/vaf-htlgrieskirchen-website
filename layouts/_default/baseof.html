@@ -6,56 +6,65 @@
     {{/* NOTE: the Site's title, and if there is a page title, that is set too
     */}}
     <title>
-      {{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{
-      .Site.Title }}{{ end }}
+      {{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}
     </title>
     <meta
       name="description"
       content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"
     />
-    {{ hugo.Generator }} {{ $production := hugo.IsProduction }} {{ $public :=
-    not .Params.private }} {{ if and $production $public }}
-    <meta name="robots" content="index, follow" />
+    {{ hugo.Generator }}
+    {{ $production := hugo.IsProduction }}
+    {{ $public := not .Params.private }}
+    {{ if and $production $public }}
+      <meta name="robots" content="index, follow">
     {{ else }}
-    <meta name="robots" content="noindex, nofollow" />
-    {{ end }} {{ with .Params.author | default .Site.Params.author }} {{-
-    $author := . -}} {{- if reflect.IsSlice . -}} {{- $author = delimit . ", " |
-    plainify -}} {{- end -}}
-    <meta name="author" content="{{ $author }}" />
-    {{ end }} {{/* NOTE: These Hugo Internal Templates can be found starting at
-    https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates
-    */}} {{- template "_internal/opengraph.html" . -}} {{- template
-    "_internal/schema.html" . -}} {{ partialCached "css.html" . }}
+      <meta name="robots" content="noindex, nofollow">
+    {{ end }}
+    {{ with .Params.author | compare.Default .Site.Params.author }}
+      {{- $author := . -}}
+      {{- if reflect.IsSlice . -}}
+        {{- $author = collections.Delimit . ", " | transform.Plainify -}}
+      {{- end -}}
+      <meta name="author" content="{{ $author }}">
+    {{ end }}
+
+    {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/schema.html" . -}}
+    {{ partialCached "css.html" . }}
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
+      document.addEventListener("DOMContentLoaded", function () {
         const lightbox = GLightbox({
-          selector: '.glightbox',
+          selector: ".glightbox",
           touchNavigation: true,
           loop: true,
-          scrollLock: false
+          scrollLock: false,
         });
       });
     </script>
-
   </head>
 
   <body class="h-full">
     <div class="min-h-full">
-      {{ block "header" . }}{{ partials.Include "site-header.html" . }}{{ end }}
+      {{ block "header" . }}
+        {{ partials.Include "site-header.html" . }}
+      {{ end }}
 
       <main>
         <div
           class="mx-auto max-w-7xl bg-white px-4 py-6 sm:px-6 lg:px-8 dark:bg-gray-900"
         >
-          {{ block "main" . }}{{ end }}
+          {{ block "main" . }}
+          {{ end }}
         </div>
       </main>
 
-      {{ block "footer" . }}{{ partials.IncludeCached "site-footer.html" . }}{{
-      end }}
+      {{ block "footer" . }}
+        {{ partials.IncludeCached "site-footer.html" . }}
+      {{ end }}
     </div>
   </body>
 </html>

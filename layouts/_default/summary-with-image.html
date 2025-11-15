@@ -1,27 +1,30 @@
 {{ $featured_image := partials.Include "func/GetFeaturedImage.html" . }}
 <article>
-  <div class="py-4 px-3 lg:px-0 text-gray-800 dark:text-gray-300">
+  <div class="px-3 py-4 text-gray-800 lg:px-0 dark:text-gray-300">
     <div class="flex flex-col lg:flex-row">
       {{ if $featured_image }}
-        <div class="w-full lg:w-2/5 mb-4 lg:mb-0">
+        <div class="mb-4 w-full lg:mb-0 lg:w-2/5">
           <a href="{{.RelPermalink}}">
-            <img src="{{ $featured_image }}" alt="image from {{ .Title }}" class="w-full h-auto object-cover">
+            <img
+              src="{{ $featured_image }}"
+              alt="image from {{ .Title }}"
+              class="h-auto w-full object-cover"
+            />
           </a>
         </div>
       {{ end }}
       <div class="w-full{{ if $featured_image }} lg:w-3/5 lg:pl-3 }}{{ end }}">
-        <h1 class="text-xl font-serif leading-tight">
-          <a href="{{.RelPermalink}}" class="hover:underline">
-            {{ .Title }}
-          </a>
+        <h1 class="font-serif text-xl leading-tight">
+          <a href="{{.RelPermalink}}" class="hover:underline"> {{ .Title }} </a>
         </h1>
-        <div class="text-xs lg:text-sm leading-relaxed">
-          {{ .Summary }}
-        </div>
+        <div class="text-xs leading-relaxed lg:text-sm">{{ .Summary }}</div>
         {{ with .Params.author | compare.Default .Site.Params.author }}
           <p class="text-xs leading-relaxed">Von {{ . }}</p>
         {{- end -}}
-        <a href="{{.RelPermalink}}" class="bg-lime-500 hover:bg-lime-700 text-white font-bold py-2 px-4 rounded">
+        <a
+          href="{{.RelPermalink}}"
+          class="rounded bg-lime-500 px-4 py-2 font-bold text-white hover:bg-lime-700"
+        >
           Weiterlesen
         </a>
       </div>

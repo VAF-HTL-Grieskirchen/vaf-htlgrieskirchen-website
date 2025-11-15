@@ -2,8 +2,16 @@
 
 <div class="gallery mt-10">
   {{- range $images }}
-    <a href="{{ .RelPermalink }}" class="gallery-item glightbox" data-gallery="my-gallery">
-      <img src="{{ .RelPermalink }}" alt="{{ .Name | plainify }}" class="img-fluid rounded mb-2" />
+    <a
+      href="{{ .RelPermalink }}"
+      class="gallery-item glightbox"
+      data-gallery="my-gallery"
+    >
+      <img
+        src="{{ .RelPermalink }}"
+        alt="{{ .Name | plainify }}"
+        class="img-fluid mb-2 rounded"
+      />
     </a>
   {{- end }}
 </div>
