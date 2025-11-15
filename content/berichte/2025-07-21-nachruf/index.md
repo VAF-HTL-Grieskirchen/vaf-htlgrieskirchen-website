@@ -1,0 +1,13 @@
+---
+title: "Nachruf - Direktorin a. D. Isabella Pössl-Natzmer"
+date: "2025-07-21"
+featured_image: "parte_isabella_possl-page-001.1200x0.jpg"
+---
+
+<!--more-->
+
+**Am Montag, 21. Juli 2025 ist die ehemalige Direktorin der HTL Grieskirchen, Mag. Isabella Pössl-Natzmer, nach längerer Krankheit verstorben. Sie war von 2001 bis 2010 die erste Leiterin der Schule und seit der Gründung unseres Absolventenvereines 2006/07 unterstützendes Mitglied. Die Nachricht von ihrem frühen Tod macht uns sehr betroffen und tief traurig.**
+
+**Liebe Isa, wir werden Dir stets ein ehrendes Andenken bewahren!**
+
+{{< image-gallery >}}

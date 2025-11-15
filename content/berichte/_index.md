@@ -6,3 +6,5 @@ title: "Berichte"
 featured_image: "/images/berichte-hero.jpg"
 layout: list
 ---
+
+{{/* Rendered based on layout */}}

@@ -26,6 +26,20 @@
     https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates
     */}} {{- template "_internal/opengraph.html" . -}} {{- template
     "_internal/schema.html" . -}} {{ partialCached "css.html" . }}
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const lightbox = GLightbox({
+          selector: '.glightbox',
+          touchNavigation: true,
+          loop: true,
+          scrollLock: false
+        });
+      });
+    </script>
+
   </head>
 
   <body class="h-full">

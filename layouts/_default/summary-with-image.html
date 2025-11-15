@@ -9,7 +9,7 @@
           </a>
         </div>
       {{ end }}
-      <div class="w-full{{ if $featured_image }} lg:w-3/5 {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "lg:pr-3" "lg:pl-3" }}{{ end }}">
+      <div class="w-full{{ if $featured_image }} lg:w-3/5 lg:pl-3 }}{{ end }}">
         <h1 class="text-xl font-serif leading-tight">
           <a href="{{.RelPermalink}}" class="hover:underline">
             {{ .Title }}

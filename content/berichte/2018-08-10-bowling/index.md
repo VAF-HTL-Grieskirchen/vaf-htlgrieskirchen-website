@@ -1,0 +1,15 @@
+---
+title: "Bowling 2018"
+date: "2018-08-10"
+featured_image: "p8100297-1.1200x0.jpg"
+---
+
+<!--more-->
+
+## Bowling 2017
+
+Auch dieses Jahr fand wieder ein Bowlingevent im Zuge des VAF Sommerevents statt. Am 10. August 2018 folgten insgesamt 16 Personen der Einladung daran teilzunehmen. Dass es sich hier aufgrund Schlechtwetters "nur" um das Alternativprogram handelt, war nicht erkennbar. Dem Bogenschießen wurde nicht nachgetrauert und schon war die Kugel für 2,5h am Rollen. Im Anschluss ließen wir das Event im gemütlichen Rahmen in einer Pizzaria ausklingen
+
+Danke an Manuel Windhager für die tolle Idee und Organisation.
+
+{{< image-gallery >}}

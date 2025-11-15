@@ -2,7 +2,7 @@
 @source "hugo_stats.json";
 
 h2 {
-  @apply mb-3 text-3xl font-bold text-gray-600;
+  @apply my-3 text-3xl font-bold text-gray-600;
 }
 
 ul {
@@ -11,6 +11,10 @@ ul {
 
 p {
   @apply mb-3;
+}
+
+p > a {
+  @apply underline;
 }
 
 /* pagination.html: https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L117 */
