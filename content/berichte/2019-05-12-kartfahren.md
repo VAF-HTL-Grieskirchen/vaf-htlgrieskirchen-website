@@ -1,8 +1,10 @@
 ---
-title: 'Kartfahren 2019'
-date: '2019-05-12'
-featured_image: ''
+title: "Kartfahren 2019"
+date: "2019-05-12"
+featured_image: "/images/kartfahren2019-001-1.1200x0.jpg"
 ---
+
+<!--more-->
 
 ## Hamilton und Bottas würden vor Neid erblassen!
 

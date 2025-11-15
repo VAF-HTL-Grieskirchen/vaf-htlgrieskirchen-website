@@ -1,46 +1,14 @@
-<script type='importmap'>
-{
-  "imports": {
-    "@fullcalendar/core": "https://cdn.skypack.dev/@fullcalendar/core@6.1.15",
-    "@fullcalendar/daygrid": "https://cdn.skypack.dev/@fullcalendar/daygrid@6.1.15"
-  }
-}
-</script>
-<!--<script type="module">
-  import { Calendar } from '@fullcalendar/core'
-  import dayGridPlugin from '@fullcalendar/daygrid'
-  import ICAL from "https://unpkg.com/ical.js/dist/ical.min.js";
-
-  const icsUrl = 'https://api.vereinsplaner.at/v1/public/ical/<id_of_test_user>.ics';
-
-  document.addEventListener('DOMContentLoaded', function () {
-    fetch(icsUrl)
-      .then(response => response.text())
-      .then(data => {
-        const jcalData = ICAL.parse(data);
-        const comp = new ICAL.Component(jcalData);
-        const events = comp.getAllSubcomponents('vevent');
-
-        let calendarEvents = events.map(event => {
-          let vevent = new ICAL.Event(event);
-          return {
-            title: vevent.summary,
-            start: vevent.startDate.toString(),
-            end: vevent.endDate ? vevent.endDate.toString() : null
-          };
-        });
-
-        const calendarEl = document.getElementById('calendar')
-        const calendar = new Calendar(calendarEl, {
-          plugins: [dayGridPlugin],
-          initialView: 'dayGridMonth',
-          events: calendarEvents,
-          locale: 'de-at'
-        })
-        calendar.render()
-      })
-      .catch(error => console.error("Error loading calendar:", error));
-    });
-</script>-->
-
 <div id="calendar"></div>
+
+{{ with resources.Get "js/calendar.js" }} {{$opts := dict "minify" (not
+hugo.IsDevelopment) "sourceMap" (cond hugo.IsDevelopment "external" "")
+"targetPath" "js/calendar.js" }} {{ with . | js.Build $opts }} {{ if
+hugo.IsDevelopment }}
+<script src="{{ .RelPermalink }}"></script>
+{{ else }} {{ with . | fingerprint }}
+<script
+  src="{{ .RelPermalink }}"
+  integrity="{{ .Data.Integrity }}"
+  crossorigin="anonymous"
+></script>
+{{ end }} {{ end }} {{ end }} {{ end }}

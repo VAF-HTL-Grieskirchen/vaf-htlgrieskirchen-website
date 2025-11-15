@@ -1,8 +1,13 @@
 # vaf-htlgrieskirchen-website
 
+## Dependencies
+
+- [hugo](https://gohugo.io/installation/)
+- [pnpm](https://pnpm.io/)
+
 ## Run locally
 
-- [Install hugo](https://gohugo.io/installation/)
+- Run `pnpm install`
 - Run `hugo server`
 
 ## Deploy

@@ -1,8 +1,10 @@
 ---
-title: 'Herbstfest 2016'
-date: '2016-09-23'
-featured_image: ''
+title: "Herbstfest 2016"
+date: "2016-09-23"
+featured_image: ""
 ---
+
+<!--more-->
 
 ## Ein gelungenes Herbstfest 2016
 

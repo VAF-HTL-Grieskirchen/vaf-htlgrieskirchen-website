@@ -1,8 +1,10 @@
 ---
-title: 'Eisstockschießen 2017'
-date: '2017-01-27'
-featured_image: ''
+title: "Eisstockschießen 2017"
+date: "2017-01-27"
+featured_image: ""
 ---
+
+<!--more-->
 
 ## Eisstockschießen 2017
 

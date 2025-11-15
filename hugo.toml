@@ -1,13 +1,27 @@
 baseURL = 'https://vaf-htl-grieskirchen.github.io/'
 languageCode = 'de-AT'
 title = 'VAF HTL Grieskirchen'
-theme = 'ananke'
 
 defaultContentLanguage = "de"
 enableRobotsTXT = true
 
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\\.json'
+    target = 'css'
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'
+
 [pagination]
-pagerSize = 10
+pagerSize = 9
 
 [sitemap]
 changefreq = "monthly"
@@ -15,12 +29,8 @@ priority = 0.5
 filename = "sitemap.xml"
 
 [params]
-custom_css = ["custom.css"]
-date_format = ":date_full"
 author = "Verein der Absolventen und Förderer der HTL-Grieskirchen"
 description = ""
-favicon = "favicon.ico"
 mainSections = ["berichte"]
 site_logo = "images/VAF-logo.png"
-background_color_class = "bg-green"
 recent_posts_number = 3

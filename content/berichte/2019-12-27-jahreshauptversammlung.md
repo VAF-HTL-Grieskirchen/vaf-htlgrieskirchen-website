@@ -1,10 +1,12 @@
 ---
-title: 'Jahreshauptversammlung 2019'
-date: '2019-12-27'
-featured_image: '/images/20191227_jhv2019-002-1.1200x0.jpg'
+title: "Jahreshauptversammlung 2019"
+date: "2019-12-27"
+featured_image: "/images/20191227_jhv2019-002-1.1200x0.jpg"
 ---
 
 Am 27.12.2019 lud der VAF zur Jahreshauptversammlung zum [Dorwirt in Breitenaich](https://www.dorfwirt-breitenaich.at/).
+
+<!--more-->
 
 Dieses Jahr durften wir uns bei Sebastian Fraungruber, Christoph Gerstberger, Dominik Gerstberger und Martin Smiech für ihre 5-jährige Mitgliedschaft bedanken.
 

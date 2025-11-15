@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,ts,css,html,json,md}\""
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.7.1",
+    "tailwindcss": "^4.1.17"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.19",
+    "@fullcalendar/daygrid": "^6.1.19",
+    "@fullcalendar/list": "^6.1.19",
+    "ical.js": "^2.2.1",
+    "preact": "^10.27.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher"
+    ]
+  }
+}

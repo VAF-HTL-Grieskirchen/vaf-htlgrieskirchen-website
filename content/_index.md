@@ -3,10 +3,11 @@ menus:
   main:
     name: 🏠
     weight: 1
-title: ''
+title: ""
 cascade:
-  featured_image: '/images/main-hero.jpg'
+  featured_image: "/images/main-hero.jpg"
 ---
+
 ## Die nächsten Termine
 
 [Zu den Terminen]({{< ref "termine" >}})

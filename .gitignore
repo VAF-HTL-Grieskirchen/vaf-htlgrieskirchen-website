@@ -14,3 +14,6 @@ hugo.linux
 
 # MacOS shenanigans
 .DS_Store
+
+# JavaScript shenanigans
+/node_modules/

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article>
+  <section class="mt-10 justify-around lg:flex lg:flex-wrap">
+    {{ range .Paginator.Pages }}
+    <div class="mb-4 w-full lg:w-3/10">{{ .Render "summary-with-image" }}</div>
+    {{ end }}
+  </section>
+  {{- template "_internal/pagination.html" . -}}
+</article>
+{{ end }}

@@ -2,19 +2,23 @@
 menus:
   footer:
     weight: 10
-title: 'Statuten'
-featured_image: '/images/statuten-hero.jpg'
+title: "Statuten"
+featured_image: "/images/statuten-hero.jpg"
 ---
+
 ## § 1: Name, Sitz und Tätigkeitsbereich
+
 Der Verein führt den Namen „Absolventen und Förderer der HTL Grieskirchen"
 (1) Er hat seinen Sitz in Grieskirchen.\
 (2) Die Errichtung von Zweigvereinen ist nicht beabsichtigt.
 
 ## § 2: Zweck
+
 Der Verein, dessen Tätigkeit ausschließlich gemeinnützig im Sinne der Bundesabgaben ist, hat als Zweck die Bildung und Aufrechterhaltung einer Informationenplattform zwischen Schule, Firmen, Absolventen und sonstigen Interessenten vor allem, um den Praxisbezug der Ausbildung zu erhöhen.\
 Zudem ist die Förderung der Ausbildung an der HTL Grieskirchen durch Geld und Sachwerte an die Schule bzw. die Schüler Inhalt der Tätigkeit.
 
 ## § 3: Mittel zur Erreichung des Vereinszwecks
+
 (1) Der Vereinszweck soll durch die in den Abs. 2 und 3 angeführten ideellen und materiellen Mittel erreicht werden.\
 (2) Als ideelle Mittel dienen\
 a) Vorträge\
@@ -30,18 +34,21 @@ b) Erträgnisse aus Veranstaltungen und Aktionen\
 c) Spenden und sonstige Zusendungen
 
 ## § 4: Arten der Mitgliedschaft
+
 (1) Die Mitglieder des Vereins gliedern sich in ordentliche, außerordentliche und Ehrenmitglieder.\
 (2) Ordentliche Mitglieder können Absolventen (positiver Abschluss der 5. Klasse) und Lehrer der HTL Grieskirchen werden.\
 Außerordentliche Mitglieder sind solche, die die Vereinstätigkeit vor allem durch Zahlung eines erhöhten Mitgliedsbeitrags fördern.\
 Die Ehrenmitgliedschaft wird Personen angeboten, die der HTL sowie dem Verein nahe stehen.
 
 ## § 5: Erwerb der Mitgliedschaft
+
 (1) Über die Aufnahme von ordentlichen und außerordentlichen Mitgliedern entscheidet\
 der Vorstand. Wenn eine Person seine personenbezogenen Daten dem Verein im Sinne des Vereinsbeitrittes bekannt gibt, gilt diese als vollwertiges Mitglied des Vereines. Die Aufnahme kann ohne Angabe von Gründen verweigert werden.\
 (2) Bis zur Entstehung des Vereins erfolgt die vorläufige Aufnahme von ordentlichen und außerordentlichen Mitgliedern durch die Vereinsgründer, im Fall eines bereits bestellten Vorstands durch diesen. Diese Mitgliedschaft wird erst mit Entstehung des Vereins wirksam. Wird ein Vorstand erst nach Entstehung des Vereins bestellt, erfolgt auch die (definitive) Aufnahme ordentlicher und außerordentlicher Mitglieder bis dahin durch die Gründer des Vereins.\
 (3) Die Ernennung zum Ehrenmitglied erfolgt auf Antrag des Vorstands durch die Generalversammlung.
 
 ## § 6: Beendigung der Mitgliedschaft
+
 (1) Die Mitgliedschaft erlischt durch Tod, bei juristischen Personen und rechtsfähigen Personengesellschaften durch Verlust der Rechtspersönlichkeit, durch freiwilligen Austritt und durch Ausschluss.\
 (2) Der Austritt kann nur zum Ende eines Vereinsjahres erfolgen. Er muss dem Vorstand mindestens 1 Monat vorher schriftlich mitgeteilt werden. Erfolgt die Anzeige verspätet, so ist sie erst zum nächsten Austrittstermin wirksam. Für die Rechtzeitigkeit ist das Datum der Postaufgabe maßgeblich.\
 (3) Der Vorstand kann ein Mitglied ausschließen, wenn dieses trotz zweimaliger schriftlicher Mahnung unter Setzung einer angemessenen Nachfrist länger als sechs Monate mit der Zahlung der Mitgliedsbeiträge im Rückstand ist. Die Verpflichtung zur Zahlung der fällig gewordenen Mitgliedsbeiträge bleibt hievon unberührt.\
@@ -49,6 +56,7 @@ der Vorstand. Wenn eine Person seine personenbezogenen Daten dem Verein im Sinne
 (5) Die Aberkennung der Ehrenmitgliedschaft kann aus den im Abs. 4 genannten Gründen von der Generalversammlung über Antrag des Vorstands beschlossen werden.
 
 ## § 7: Rechte und Pflichten der Mitglieder
+
 (1) Die Mitglieder sind berechtigt, an allen Veranstaltungen des Vereins teilzunehmen und die Einrichtungen des Vereins zu beanspruchen. Das Stimmrecht in der Generalversammlung sowie das aktive und passive Wahlrecht stehen nur den ordentlichen und den Ehrenmitgliedern zu.\
 (2) Jedes Mitglied ist berechtigt, vom Vorstand die Ausfolgung der Statuten zu verlangen.\
 (3) Mindestens ein Zehntel der Mitglieder kann vom Vorstand die Einberufung einer Generalversammlung verlangen.\
@@ -57,9 +65,11 @@ der Vorstand. Wenn eine Person seine personenbezogenen Daten dem Verein im Sinne
 (6) Die Mitglieder sind verpflichtet, die Interessen des Vereins nach Kräften zu fördern und alles zu unterlassen, wodurch das Ansehen und der Zweck des Vereins Abbruch erleiden könnte. Sie haben die Vereinsstatuten und die Beschlüsse der Vereinsorgane zu beachten. Die ordentlichen und außerordentlichen Mitglieder sind zur pünktlichen Zahlung der Beitrittsgebühr und der Mitgliedsbeiträge in der von der Generalversammlung beschlossenen Höhe verpflichtet.
 
 ## § 8: Vereinsorgane
+
 Organe des Vereins sind die Generalversammlung (§§ 9 und 10), der Vorstand (§§11 bis 13), die Rechnungsprüfer (§ 14) und das Schiedsgericht (§ 15).
 
 ## § 9: Generalversammlung
+
 (1) Die Generalversammlung ist die „Mitgliederversammlung" im Sinne des Vereinsgesetzes 2002. Eine ordentliche Generalversammlung findet jährlich statt.\
 (2) Eine außerordentliche Generalversammlung findet auf\
 a. Beschluss des Vorstands oder der ordentlichen Generalversammlung,\
@@ -89,6 +99,7 @@ h) Beschlussfassung über Statutenänderungen und die freiwillige Auflösung des
 i) Beratung und Beschlussfassung über sonstige auf der Tagesordnung stehende Fragen.
 
 ## § 11: Vorstand
+
 (1) Der Vorstand besteht aus mindestens 4 Mitgliedern, und zwar aus Obmann/Obfrau und Stellvertreter/in, Schriftführer/in sowie Kassier/in. Weitere Vorstandsmitglieder und ihre Funktionen können durch die Generalversammlung bestimmt werden.\
 (2) Der Vorstand wird von der Generalversammlung gewählt. Der Vorstand hat bei Ausscheiden eines gewählten Mitglieds das Recht, an seine Stelle ein anderes wählbares Mitglied zu kooptieren, wozu die nachträgliche Genehmigung in der nächstfolgenden Generalversammlung einzuholen ist. Fällt der Vorstand ohne Selbstergänzung durch Kooptierung überhaupt oder auf unvorhersehbar lange Zeit aus, so ist jeder Rechnungsprüfer verpflichtet, unverzüglich eine außerordentliche Generalversammlung zum Zweck der Neuwahl eines Vorstands einzuberufen. Sollten auch die Rechnungsprüfer handlungsunfähig sein, hat jedes ordentliche Mitglied, das die Notsituation erkennt, unverzüglich die Bestellung eines Kurators beim zuständigen Gericht zu beantragen, der umgehend eine außerordentliche Generalversammlung einzuberufen hat.\
 (3) Die Funktionsperiode des Vorstands beträgt 2 Jahre. Wiederwahl ist möglich. Jede Funktion im Vorstand ist persönlich auszuüben.\
@@ -102,6 +113,7 @@ seinem/seiner/ihrem/ihrer Stellvertreter/in, schriftlich oder mündlich einberuf
 (10) Die Vorstandsmitglieder können jederzeit schriftlich ihren Rücktritt erklären. Die Rücktrittserklärung ist an den Vorstand, im Falle des Rücktritts des gesamten Vorstands an die Generalversammlung zu richten. Der Rücktritt wird erst mit Wahl bzw. Kooptierung (Abs. 2) eines Nachfolgers wirksam.\
 
 ## § 12: Aufgaben des Vorstands
+
 Dem Vorstand obliegt die Leitung des Vereins. Er ist das „Leitungsorgan" im Sinne des Vereinsgesetzes 2002 Ihm kommen alle Aufgaben zu, die nicht durch die Statuten einem anderen Vereinsorgan zugewiesen sind. In seinen Wirkungsbereich fallen insbesondere folgende Angelegenheiten:\
 (1) Einrichtung eines den Anforderungen des Vereins entsprechenden Rechnungswesens mit laufender Aufzeichnung der Einnahmen/Ausgaben und Führung eines Vermögensverzeichnisses als Mindesterfordernis;\
 (2) Erstellung des Jahresvoranschlags, des Rechenschaftsberichts und des Rechnungsabschlusses;\
@@ -112,6 +124,7 @@ Dem Vorstand obliegt die Leitung des Vereins. Er ist das „Leitungsorgan" im Si
 (7) Aufnahme und Kündigung von Angestellten des Vereins.
 
 ## § 13: Besondere Obliegenheiten einzelner Vorstandsmitglieder
+
 (1) Der/die Obmann/Obfrau führt die laufenden Geschäfte des Vereins. Der/die Schriftführer/in unterstützt den/die Obmann/Obfrau bei der Führung der Vereinsgeschäfte.\
 (2) Der/die Obmann/Obfrau vertritt den Verein nach außen. Schriftliche Ausfertigungen des Vereins bedürfen zu ihrer Gültigkeit der Unterschriften des/der Obmanns/Obfrau und des Schriftführers/der Schriftführerin, in Geldangelegenheiten (Vermögenswerte Dispositionen) des/der Obmanns/Obfrau und des Kassiers/der Kassiererin. Rechtsgeschäfte zwischen Vorstandsmitgliedern und Verein bedürfen der Zustimmung eines anderen Vorstandsmitglieds.\
 (3) Für Veranstaltungen, welche den Verein betreffen bzw. von diesem durchgeführt werden, kann im Vorstand durch eine einfache Mehrheit jemand anders als die in §13 Abs. 2 genannten Vorstandsmitglieder mit der Zeichnungsberechtigung für diese Veranstaltung betraut werden. Die dafür notwendige Vorstandssitzung hat mindestens ein Quartal vor dem geplanten Termin zu erfolgen und die in §13 Abs. 2 genannten Vorstandsmitglieder müssen anwesend sein. Außerdem muss im Laufe dieser Sitzung die Höhe des zur Verfügung stehenden Budgets mit einer einfachen Mehrheit beschlossen werden. Alle etwaigen Mehrkosten bedürfen der Zustimmung des/der Obmanns/Obfrau und des/der Kassiers/in.\
@@ -125,15 +138,18 @@ b) Das gesamte für den/die Kassier/in zur Verfügung stehende Jahresbudget, wel
 (9) Im Fall der Verhinderung treten an die Stelle des/der Obmanns/Obfrau, des Schriftführers/der Schriftführerin oder des Kassiers/der Kassiererin ihre Stellvertreter/ innen.
 
 ## § 14: Rechnungsprüfer
+
 (1) Zwei Rechnungsprüfer werden von der Generalversammlung auf die Dauer von 2 Jahren gewählt. Wiederwahl ist möglich. Die Rechnungsprüfer dürfen keinem Organ – mit Ausnahme der Generalversammlung - angehören, dessen Tätigkeit Gegenstand der Prüfung ist.\
 (2) Den Rechnungsprüfern obliegen die laufende Geschäftskontrolle sowie die Prüfung der Finanzgebarung des Vereins im Hinblick auf die Ordnungsmäßigkeit der Rechnungslegung und die statutengemäße Verwendung der Mittel. Der Vorstand hat den Rechnungsprüfern die erforderlichen Unterlagen vorzulegen und die erforderlichen Auskünfte zu erteilen. Die Rechnungsprüfer haben dem Vorstand über das Ergebnis der Prüfung zu berichten.\
 (3) Rechtsgeschäfte zwischen Rechnungsprüfern und Verein bedürfen der Genehmigung durch die Generalversammlung. Im Übrigen gelten für die Rechnungsprüfer die Bestimmungen des § 11 Abs. 8 bis 10 sinngemäß.
 
 ## § 15: Schiedsgericht
+
 (1) Zur Schlichtung von allen aus dem Vereinsverhältnis entstehenden Streitigkeiten ist das vereinsinterne Schiedsgericht berufen. Es ist eine „Schlichtungseinrichtung" im Sinne des Vereinsgesetzes 2002 und kein Schiedsgericht nach den §§ 577 ff ZPO.\
 (2) Das Schiedsgericht setzt sich aus drei ordentlichen Vereinsmitgliedern zusammen. Es wird derart gebildet, dass ein Streitteil dem Vorstand ein Mitglied als Schiedsrichter schriftlich namhaft macht. Über Aufforderung durch den Vorstand binnen sieben Tagen macht der andere Streitteil innerhalb von 14 Tagen seinerseits ein Mitglied des Schiedsgerichts namhaft. Nach Verständigung durch den Vorstand innerhalb von sieben Tagen wählen die namhaft gemachten Schiedsrichter binnen weiterer 14 Tage ein drittes ordentliches Mitglied zum/zur Vorsitzenden des Schiedsgerichts. Bei Stimmengleichheit entscheidet unter den Vorgeschlagenen das Los. Die Mitglieder des Schiedsgerichts dürfen keinem Organ - mit Ausnahme der Generalversammlung - angehören, dessen Tätigkeit Gegenstand der Streitigkeit ist.\
 (3) Das Schiedsgericht fällt seine Entscheidung nach Gewährung beiderseitigen Gehörs bei Anwesenheit aller seiner Mitglieder mit einfacher Stimmenmehrheit. Es entscheidet nach bestem Wissen und Gewissen. Seine Entscheidungen sind vereinsintern endgültig.
 
 ## § 16: Freiwillige Auflösung des Vereins
+
 (1) Die freiwillige Auflösung des Vereins kann nur in einer Generalversammlung und nur mit Zweidrittelmehrheit der abgegebenen gültigen Stimmen beschlossen werden.\
 (2) Diese Generalversammlung hat auch - sofern Vereinsvermögen vorhanden ist - über die Abwicklung zu beschließen. Insbesondere hat sie einen Abwickler zu berufen und Beschluss darüber zu fassen, wem dieser das nach Abdeckung der Passiven verbleibend Vereinsvermögen zu übertragen hat. Dieses Vermögen soll, soweit dies möglich und erlaubt ist, einer Organisation zufallen, die gleiche oder ähnliche Zwecke wie dieser Verein verfolgt, sonst Zwecken der Sozialhilfe.

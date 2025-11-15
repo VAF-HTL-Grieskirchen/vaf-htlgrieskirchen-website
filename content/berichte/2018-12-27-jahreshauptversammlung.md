@@ -1,8 +1,10 @@
 ---
-title: 'Jahreshauptversammlung 2018'
-date: '2018-09-08'
-featured_image: ''
+title: "Jahreshauptversammlung 2018"
+date: "2018-12-27"
+featured_image: "/images/jhv2018-015-1.1200x0.jpg"
 ---
+
+<!--more-->
 
 ## Jahreshauptversammlung 2018
 

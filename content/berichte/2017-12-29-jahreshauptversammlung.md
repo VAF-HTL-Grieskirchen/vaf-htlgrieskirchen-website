@@ -1,8 +1,10 @@
 ---
-title: 'Jahreshauptversammlung 2017'
-date: '2017-12-29'
-featured_image: ''
+title: "Jahreshauptversammlung 2017"
+date: "2017-12-29"
+featured_image: ""
 ---
+
+<!--more-->
 
 ## Jahreshauptversammlung 2017
 

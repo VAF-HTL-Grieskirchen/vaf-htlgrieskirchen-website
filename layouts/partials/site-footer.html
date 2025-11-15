@@ -1,17 +1,12 @@
-<footer class="{{ .Site.Params.background_color_class | default " bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
-  {{ if .Site.Menus.footer }}
-    <ul>
-    {{ range .Site.Menus.footer }}
-      <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n " pageTitle" . }}">
-        {{ .Name }}
-      </a>
+<footer class="bg-gray-800 text-white py-6">
+  <div class="container mx-auto text-center">
+    {{ if .Site.Menus.footer }}
+      <div class="flex justify-center space-x-6 mb-4">
+        {{ range .Site.Menus.footer }}
+          <a href="{{ .URL }}" title="{{ i18n "pageTitle" . }}" class="hover:text-gray-400">{{ .Name }}</a>
+        {{ end }}
+      </div>
     {{ end }}
-    </ul>
-  {{ end }}
-  <div class="flex justify-between">
-    <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}">
-      &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
-    </a>
-    <div>{{ partialCached "social/follow.html" . }}</div>
+    <p class="text-sm">&copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006" }} {{ end }}</p>
   </div>
 </footer>

@@ -2,9 +2,10 @@
 menus:
   main:
     weight: 60
-title: 'Kontakt'
-featured_image: '/images/impressum-hero.jpg'
+title: "Kontakt"
+featured_image: "/images/impressum-hero.jpg"
 ---
+
 **Verein der Absolventen und Förderer der HTL-Grieskirchen**
 
 Parzer Schulstraße 1\
@@ -12,7 +13,9 @@ A-4710 Grieskirchen
 
 ZVR: 608474231
 
-E-Mail: office[at]absolventen-htlgrieskirchen.at
+E-Mail: [office@absolventen-htlgrieskirchen.at](mailto:office@absolventen-htlgrieskirchen.at)
+
+&nbsp;
 
 Wenn Sie ein Job-Inserat haben, welches die Mitglieder des VAF HTL Grieskirchen erreichen soll, so senden Sie dieses bitte unter folgenden Richtlinien an office@absolventen-htlgrieskirchen.at.
 

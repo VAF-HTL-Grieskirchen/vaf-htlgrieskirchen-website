@@ -1,8 +1,10 @@
 ---
-title: 'Sachspende 2019'
-date: '2019-07-04'
-featured_image: ''
+title: "Sachspende 2019"
+date: "2019-07-04"
+featured_image: "/images/sachspende2019-001-1.1200x0.jpg"
 ---
+
+<!--more-->
 
 ## Eine Cajon für die Schulband
 
