@@ -5,7 +5,7 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import listPlugin from "@fullcalendar/list";
 
 const icsUrl =
-  "https://api.vereinsplaner.at/v1/public/ical/id_of_user.ics";
+  "https://api.vereinsplaner.at/v1/public/ical/a33b6be2-f689-4955-a71b-c541d7654a55.ics";
 
 document.addEventListener("DOMContentLoaded", function () {
   fetch(icsUrl)
