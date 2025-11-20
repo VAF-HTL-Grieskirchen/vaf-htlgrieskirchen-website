@@ -2,7 +2,7 @@ backend:
   name: github
   repo: VAF-HTL-Grieskirchen/vaf-htlgrieskirchen-website
   branch: main
-  base_url: TODO.INSERT.CLOUDLFARE.URL
+  base_url: https://sveltia-cms-auth.shiny-snow-c209.workers.dev
 
 media_folder: "content/berichte"
 public_folder: "/berichte"
