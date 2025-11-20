@@ -4,6 +4,7 @@ import deLocale from "@fullcalendar/core/locales/de";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import listPlugin from "@fullcalendar/list";
 
+// "User Kalender" in Vereinsplaner
 const icsUrl =
   "https://api.vereinsplaner.at/v1/public/ical/a33b6be2-f689-4955-a71b-c541d7654a55.ics";
 
