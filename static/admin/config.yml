@@ -10,18 +10,39 @@ public_folder: "/berichte"
 collections:
   - name: "berichte"
     label: "Berichte"
-    folder: "_berichte"
+    folder: "content/berichte"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     path: "{{slug}}/index"
     media_folder: ""
     public_folder: ""
+    sortable_fields:
+      fields: [title, published_date, author]
+      default:
+        field: published_date
+        direction: descending
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Featured Image", name: "featured_image", widget: "string" }
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        default: "{{now}}"
+        format: "YYYY-MM-DDTHH:mm:ssZ"
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: true
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+      - label: "Author"
+        name: "author"
+        widget: "string"
+      - label: "Featured Image"
+        name: "featured_image"
+        widget: "string"
       - label: "Images"
         name: "images"
         widget: "list"
