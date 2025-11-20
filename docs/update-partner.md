@@ -2,7 +2,7 @@
 
 The Partner data is specified in `/data/partner.yml`.
 The format is quite self explanatory (`logo`, `url`).
-`image` references to `/static/images/partner/`.
+`logo` references to `/static/images/partner/`.
 The order is as in the data file.
 
 ## Technical details
