@@ -12,6 +12,8 @@ collections:
     label: "Berichte"
     folder: "content/berichte"
     create: true
+    nested:
+      depth: 2
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     path: "{{slug}}/index"
     media_folder: ""
