@@ -1,4 +1,4 @@
-# vaf-htlgrieskirchen-website
+# VAF HTL Grieskirchen Website
 
 ## Dependencies
 
@@ -16,7 +16,6 @@
 - Push
 - GitHub Actions will automatically deploy it
 
-## TODO
+## Documentation
+See [here](/docs/).
 
-- Design
-- Migration Images
