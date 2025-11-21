@@ -6,7 +6,7 @@
 This automatically prefills the file with a template.
 
 ## Manual
-- Create a new folder in `content/berichte` with the format `yyyy-MM-dd`.
+- Create a new folder in `content/berichte` with the format `yyyy-MM-dd-title`.
 - Create an `index.md` file in that folder.
 - Add the following headers:
 ```yaml
