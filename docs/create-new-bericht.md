@@ -19,9 +19,9 @@ featured_image: ""
 
 ## Headers
 - `title`: Is the title of the page and will be shown centered over the `feature_image`.
-- `date`: Is the publish date. Use the ISO 8601 standard (yyyy-MM-ddTHH:mm:ss+01:00)
-- `author`: Is the author that will be shown for berichte. If not specified defaults to "Verein der Absolventen und Förderer der HTL-Grieskirchen"
-- `draft`: If set to true, the bericht will not be published. Default `false`
+- `date`: Is the publish date. Use the ISO 8601 standard (yyyy-MM-ddTHH:mm:ss+01:00 or +02:00 during DST).
+- `author`: Is the author that will be shown for berichte. If not specified defaults to "Verein der Absolventen und Förderer der HTL-Grieskirchen".
+- `draft`: If set to true, the bericht will not be published. Default `false`.
 - `featured_image`: Is the hero and preview image.
 - `summary`: Defines a summary independent from the content. If not specified, the content will be used as a summary.
 
