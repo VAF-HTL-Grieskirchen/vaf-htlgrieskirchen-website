@@ -35,7 +35,7 @@ Der Vorstand wurde neu gewählt – mit einigen Änderungen:
 _Fabian Wilflingseder_ übernimmt die Funktion des Schriftführers, _Lisa Famler_ unterstützt ihn künftig als Schriftführer-Stellvertreterin.
 
 _Andreas Leeb_ wurde zum neuen Kassier gewählt.
-Als kleines Dankeschön erhielten die ausgeschiedenen Vorstandsmitglieder Geschenkskörbe von der [Hofzeit](http://hofzeit.at).
+Als kleines Dankeschön erhielten die ausgeschiedenen Vorstandsmitglieder Geschenkskörbe von der [Hofzeit](https://hofzeit.at).
 
 ## Ausblick 2025:
 
