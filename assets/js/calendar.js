@@ -36,6 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         events: calendarEvents,
         locale: deLocale,
+        eventDidMount: function(info) {
+          if (info.event.end < Date.now()) {
+            var dotEl = info.el.getElementsByClassName('fc-list-event-dot')[0];
+            if (dotEl) {
+              dotEl.style.borderColor = 'gray';
+            }
+          }
+        }
       });
       calendar.render();
     })
