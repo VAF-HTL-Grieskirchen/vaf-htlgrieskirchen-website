@@ -30,7 +30,7 @@ filename = "sitemap.xml"
 
 [params]
 author = "Verein der Absolventen und Förderer der HTL-Grieskirchen"
-description = ""
+description = "Startseite des Vereins der Absolventen und Förderer der HTL-Grieskirchen."
 mainSections = ["berichte"]
 site_logo = "images/VAF-logo.png"
 recent_posts_number = 3
