@@ -75,7 +75,7 @@
 {{ $featured_image := partials.Include "func/GetFeaturedImage.html" . }}
 {{ if $featured_image }}
   <div class="relative">
-    <img src="{{ $featured_image }}" alt="Feature Image" class="w-full h-96 object-cover">
+    <img src="{{ $featured_image }}" alt="Feature Image" class="w-full h-96 object-cover" fetchpriority="high">
     <div class="absolute inset-0 bg-black opacity-40"></div>
     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
       <h1 class="text-5xl font-bold text-center">{{ .Title | compare.Default .Site.Title }}</h1>
