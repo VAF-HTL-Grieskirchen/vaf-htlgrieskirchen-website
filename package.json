@@ -3,7 +3,7 @@
     "format": "prettier --write \"**/*.{js,ts,css,html,json,md}\""
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.1.17",
+    "@tailwindcss/cli": "^4.1.18",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.1",
     "tailwindcss": "^4.1.18"
