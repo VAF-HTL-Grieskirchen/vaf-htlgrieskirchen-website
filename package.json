@@ -6,7 +6,7 @@
     "@tailwindcss/cli": "^4.1.17",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.7.1",
-    "tailwindcss": "^4.1.17"
+    "tailwindcss": "^4.1.18"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.19",
