@@ -1,1 +1,18 @@
-{{ define "main" }} {{- .Content -}} {{ end }}
+{{ define "main" }}
+<article>
+  <div class="content">
+    {{ .Content }}
+  </div>
+  {{ if not .Date.IsZero }}
+    <footer class="border-t">
+      <div class="mt-4 flex items-center text-sm text-gray-500">
+        {{ with .Params.author | compare.Default .Site.Params.author }}
+          <span>Von {{ . }}</span>
+          <span class="mx-2">&bull;</span>
+        {{ end }}
+        <time>{{ .Date | time.Format "02.01.2006" }}</time>
+      </div>
+    </footer>
+  {{ end }}
+</article>
+{{ end }}
