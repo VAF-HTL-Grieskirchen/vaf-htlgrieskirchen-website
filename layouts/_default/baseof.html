@@ -31,7 +31,27 @@
     {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/schema.html" . -}}
-    {{ partialCached "css.html" . }}
+    {{ with (templates.Defer (dict "key" "global")) }}
+      {{ with resources.Get "css/main.css" }}
+        {{ $opts := dict
+          "minify" hugo.IsProduction
+        }}
+        {{ with . | css.TailwindCSS $opts }}
+          {{ if hugo.IsProduction }}
+            {{ with . | fingerprint }}
+              <link
+                rel="stylesheet"
+                href="{{ .RelPermalink }}"
+                integrity="{{ .Data.Integrity }}"
+                crossorigin="anonymous"
+              />
+            {{ end }}
+          {{ else }}
+            <link rel="stylesheet" href="{{ .RelPermalink }}" />
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
   </head>
 
   <body class="h-full">

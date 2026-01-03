@@ -16,26 +16,24 @@
   {{- end }}
 </div>
 
-{{ with (templates.Defer (dict "key" "global")) }}
-  {{ with resources.Get "css/gallery.css" }}
-    {{ $opts := dict
-      "enableSourceMap" hugo.IsDevelopment
-      "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
-      "includePaths" (slice "node_modules/glightbox/dist/css")
-    }}
-    {{ with . | css.Sass $opts }}
-      {{ if hugo.IsProduction }}
-        {{ with . | fingerprint }}
-          <link
-            rel="stylesheet"
-            href="{{ .RelPermalink }}"
-            integrity="{{ .Data.Integrity }}"
-            crossorigin="anonymous"
-          />
-        {{ end }}
-      {{ else }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ with resources.Get "css/gallery.css" }}
+  {{ $opts := dict
+    "enableSourceMap" hugo.IsDevelopment
+    "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
+    "includePaths" (slice "node_modules/glightbox/dist/css")
+  }}
+  {{ with . | css.Sass $opts }}
+    {{ if hugo.IsProduction }}
+      {{ with . | fingerprint }}
+        <link
+          rel="stylesheet"
+          href="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous"
+        />
       {{ end }}
+    {{ else }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" />
     {{ end }}
   {{ end }}
 {{ end }}
