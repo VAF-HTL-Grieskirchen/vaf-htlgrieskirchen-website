@@ -1,8 +1,6 @@
 {{ define "main" }}
 <article>
-  <div class="content">
-    {{ .Content }}
-  </div>
+  {{ .Content }}
   {{ if not .Date.IsZero }}
     <footer class="border-t">
       <div class="mt-4 flex items-center text-sm text-gray-500">

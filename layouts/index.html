@@ -1,20 +1,44 @@
 {{ define "main" }}
-<article class="text-center">{{ .Content }}</article>
+<div class="space-y-16">
 
-{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default
-to the section with the most number of pages. */}}
-{{ $mainSections := site.Params.mainSections | default (slice "post") }}
-{{ $section := where $.Site.RegularPages "Section" "in" $mainSections }}
-{{ $section_count := len $section }}
-{{ if ge $section_count 1 }}
-  <div class="mx-auto w-full p-3 lg:w-7/10 lg:p-4">
-    {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+  <section class="bg-primary-50 rounded-2xl p-8 text-center border border-primary-100 shadow-sm">
+    <h2 class="text-3xl font-bold text-gray-900 mt-0 mb-4 border-none pb-0">
+      Unsere nächsten Veranstaltungen
+    </h2>
+    <p class="text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+      Bleibt auf dem Laufenden über unsere kommenden Veranstaltungen und Treffen. Alle Termine findet ihr in unserem Kalender.
+    </p>
+    <a href='/termine/' class="btn btn-primary px-8 py-3 text-base">
+      Zum Kalender
+    </a>
+  </section>
 
-    <section class="w-full max-w-5xl">
-      {{/* Range through the first $n_posts items of the section */}} {{ range
-      (first $n_posts $section) }}
-      <div class="relative mb-4 w-full">{{ .Render "summary-with-image" }}</div>
-      {{ end }}
+  {{/* Recent Berichte Section */}}
+  {{ $mainSections := site.Params.mainSections | default (slice "berichte") }}
+  {{ $section := where $.Site.RegularPages "Section" "in" $mainSections }}
+  {{ $section_count := len $section }}
+  {{ if ge $section_count 1 }}
+    <section>
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 border-b pb-4 border-gray-200 gap-4">
+        <h2 class="text-3xl font-bold text-gray-900 my-0 border-none">Was bisher geschah</h2>
+        {{ $berichte_url := "berichte" | relURL }}
+        <a href="{{ $berichte_url }}" class="text-primary-600 hover:text-primary-800 font-semibold flex items-center transition-colors group">
+          Alle Berichte
+          <svg class="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+        {{ range (first $n_posts $section) }}
+          <div class="h-full">
+            {{ .Render "summary-with-image" }}
+          </div>
+        {{ end }}
+      </div>
     </section>
-  </div>
-{{ end }} {{ end }}
+  {{ end }}
+</div>
+{{ end }}

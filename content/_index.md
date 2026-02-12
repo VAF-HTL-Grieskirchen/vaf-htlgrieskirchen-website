@@ -4,22 +4,12 @@ menus:
     name: 🏠
     weight: 1
 title: ""
+description: "Verein der Absolventen und Förderer der HTL-Grieskirchen"
 cascade:
   featured_image: "/images/main-hero.jpg"
 ---
 
-## Die nächsten Termine
-
-[Zu den Terminen]({{< ref "termine" >}})
-
-&nbsp;
-
----
-
-&nbsp;
-
-## Was bisher geschah
-
 <!---
+Call to action (calendar) rendered via index.html
 Posts are rendered via mainSections = ["berichte"] in hugo.toml
 -->

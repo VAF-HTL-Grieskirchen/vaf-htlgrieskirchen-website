@@ -15,8 +15,6 @@ ZVR: 608474231
 
 E-Mail: [office@absolventen-htlgrieskirchen.at](mailto:office@absolventen-htlgrieskirchen.at)
 
-&nbsp;
-
 Wenn Sie ein Job-Inserat haben, welches die Mitglieder des VAF HTL Grieskirchen erreichen soll, so senden Sie dieses bitte unter folgenden Richtlinien an office@absolventen-htlgrieskirchen.at.
 
 - Datei muss als `*.pdf` gesendet werden
