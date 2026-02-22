@@ -14,7 +14,7 @@
     "@fullcalendar/list": "^6.1.20",
     "glightbox": "^3.3.1",
     "ical.js": "^2.2.1",
-    "preact": "^10.28.3"
+    "preact": "^10.28.4"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
