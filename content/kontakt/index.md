@@ -23,4 +23,4 @@ Wenn Sie ein Job-Inserat haben, welches die Mitglieder des VAF HTL Grieskirchen 
 - Wenn Sie mehrere Inserate übermitteln, diese bitte gesammelt in einer mehrseitigen PDF-Datei
 - Namenskonvention mehrere Inserate: `Datum_Unternehmen_Anzahl-Inserate.pdf` (z. B. `2018-01-12_TGW_3-Inserate.pdf`)
 
-Das Inserat wird bei der nächsten Sendung an die über 300 Mitglieder mitgeschickt.
+Das Inserat wird bei der nächsten Sendung an die über 450 Mitglieder mitgeschickt.
