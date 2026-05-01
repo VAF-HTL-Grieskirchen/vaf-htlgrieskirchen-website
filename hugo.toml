@@ -1,5 +1,5 @@
 baseURL = 'https://absolventen-htlgrieskirchen.at/'
-languageCode = 'de-AT'
+locale = 'de-AT'
 title = 'VAF HTL Grieskirchen'
 
 defaultContentLanguage = "de"
