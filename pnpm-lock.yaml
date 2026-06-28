@@ -15,8 +15,8 @@ importers:
         specifier: ^6.1.20
         version: 6.1.20(@fullcalendar/core@6.1.21)
       '@fullcalendar/list':
-        specifier: ^6.1.20
-        version: 6.1.20(@fullcalendar/core@6.1.21)
+        specifier: ^6.1.21
+        version: 6.1.21(@fullcalendar/core@6.1.21)
       glightbox:
         specifier: ^3.3.1
         version: 3.3.1
@@ -50,10 +50,10 @@ packages:
     peerDependencies:
       '@fullcalendar/core': ~6.1.20
 
-  '@fullcalendar/list@6.1.20':
-    resolution: {integrity: sha512-7Hzkbb7uuSqrXwTyD0Ld/7SwWNxPD6SlU548vtkIpH55rZ4qquwtwYdMPgorHos5OynHA4OUrZNcH51CjrCf2g==}
+  '@fullcalendar/list@6.1.21':
+    resolution: {integrity: sha512-2rpIhs5pJmV7jyk4oX4bckNqurt6iHcsweE3FDYDdNpmRukPrARnyQYcaVFNVw2bnBFeR/jQW/St2MlauxF3GQ==}
     peerDependencies:
-      '@fullcalendar/core': ~6.1.20
+      '@fullcalendar/core': ~6.1.21
 
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
@@ -470,7 +470,7 @@ snapshots:
     dependencies:
       '@fullcalendar/core': 6.1.21
 
-  '@fullcalendar/list@6.1.20(@fullcalendar/core@6.1.21)':
+  '@fullcalendar/list@6.1.21(@fullcalendar/core@6.1.21)':
     dependencies:
       '@fullcalendar/core': 6.1.21
 
