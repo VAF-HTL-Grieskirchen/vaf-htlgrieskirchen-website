@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@fullcalendar/core':
-        specifier: ^6.1.21
-        version: 6.1.21
+        specifier: ^6.1.22
+        version: 6.1.22
       '@fullcalendar/daygrid':
         specifier: ^6.1.21
-        version: 6.1.21(@fullcalendar/core@6.1.21)
+        version: 6.1.21(@fullcalendar/core@6.1.22)
       '@fullcalendar/list':
         specifier: ^6.1.21
-        version: 6.1.21(@fullcalendar/core@6.1.21)
+        version: 6.1.21(@fullcalendar/core@6.1.22)
       glightbox:
         specifier: ^3.3.1
         version: 3.3.1
@@ -42,8 +42,8 @@ importers:
 
 packages:
 
-  '@fullcalendar/core@6.1.21':
-    resolution: {integrity: sha512-t3u/+sqh3Iq7TWtUnVLcGDUE6OWZh0UD3c04bI/l7lSLAgAKr3kngBmhHiQD1QXpwC8ZN5iNqG7a7gOVixhSKQ==}
+  '@fullcalendar/core@6.1.22':
+    resolution: {integrity: sha512-ju5PJUE++zr8XXCGtlXlrodF6doUy9BDfzx+VmE0B+XDBM2A5cUi/aU3M1ANfw/StmKhwqew7Ps7bXMiv/JREg==}
 
   '@fullcalendar/daygrid@6.1.21':
     resolution: {integrity: sha512-QYb1y40RGYLlOxKpYWg8O+7njEnKnFG8Tt7qjnubJGR35s1phQg67E+81y2TyAbbm59p2JFOCXGDk9t6KDujIA==}
@@ -481,17 +481,17 @@ packages:
 
 snapshots:
 
-  '@fullcalendar/core@6.1.21':
+  '@fullcalendar/core@6.1.22':
     dependencies:
       preact: 10.12.1
 
-  '@fullcalendar/daygrid@6.1.21(@fullcalendar/core@6.1.21)':
+  '@fullcalendar/daygrid@6.1.21(@fullcalendar/core@6.1.22)':
     dependencies:
-      '@fullcalendar/core': 6.1.21
+      '@fullcalendar/core': 6.1.22
 
-  '@fullcalendar/list@6.1.21(@fullcalendar/core@6.1.21)':
+  '@fullcalendar/list@6.1.21(@fullcalendar/core@6.1.22)':
     dependencies:
-      '@fullcalendar/core': 6.1.21
+      '@fullcalendar/core': 6.1.22
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
