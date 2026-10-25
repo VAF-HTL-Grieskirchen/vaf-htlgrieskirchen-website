@@ -11,7 +11,7 @@
   "dependencies": {
     "@fullcalendar/core": "^6.1.22",
     "@fullcalendar/daygrid": "^6.1.22",
-    "@fullcalendar/list": "^6.1.21",
+    "@fullcalendar/list": "^6.1.22",
     "glightbox": "^3.3.1",
     "ical.js": "^2.2.1",
     "preact": "^11.0.1"
