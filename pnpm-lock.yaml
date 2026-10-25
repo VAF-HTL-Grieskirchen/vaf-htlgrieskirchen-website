@@ -12,8 +12,8 @@ importers:
         specifier: ^6.1.22
         version: 6.1.22
       '@fullcalendar/daygrid':
-        specifier: ^6.1.21
-        version: 6.1.21(@fullcalendar/core@6.1.22)
+        specifier: ^6.1.22
+        version: 6.1.22(@fullcalendar/core@6.1.22)
       '@fullcalendar/list':
         specifier: ^6.1.21
         version: 6.1.21(@fullcalendar/core@6.1.22)
@@ -45,10 +45,10 @@ packages:
   '@fullcalendar/core@6.1.22':
     resolution: {integrity: sha512-ju5PJUE++zr8XXCGtlXlrodF6doUy9BDfzx+VmE0B+XDBM2A5cUi/aU3M1ANfw/StmKhwqew7Ps7bXMiv/JREg==}
 
-  '@fullcalendar/daygrid@6.1.21':
-    resolution: {integrity: sha512-QYb1y40RGYLlOxKpYWg8O+7njEnKnFG8Tt7qjnubJGR35s1phQg67E+81y2TyAbbm59p2JFOCXGDk9t6KDujIA==}
+  '@fullcalendar/daygrid@6.1.22':
+    resolution: {integrity: sha512-cpom5+bAvsGG5nX+snsCtpMIyyhAr+QlseD9mhz5Vq7rMBTzx43mSkz6IBvQ3vz5h2idbDmT1cggEn/dzZwt9Q==}
     peerDependencies:
-      '@fullcalendar/core': ~6.1.21
+      '@fullcalendar/core': ~6.1.22
 
   '@fullcalendar/list@6.1.21':
     resolution: {integrity: sha512-2rpIhs5pJmV7jyk4oX4bckNqurt6iHcsweE3FDYDdNpmRukPrARnyQYcaVFNVw2bnBFeR/jQW/St2MlauxF3GQ==}
@@ -485,7 +485,7 @@ snapshots:
     dependencies:
       preact: 10.12.1
 
-  '@fullcalendar/daygrid@6.1.21(@fullcalendar/core@6.1.22)':
+  '@fullcalendar/daygrid@6.1.22(@fullcalendar/core@6.1.22)':
     dependencies:
       '@fullcalendar/core': 6.1.22
 
